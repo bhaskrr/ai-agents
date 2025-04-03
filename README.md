@@ -46,3 +46,41 @@ In today's fast-paced business environment, efficient and accurate customer supp
 ### Conclusion
 
 By combining natural language processing capabilities with a structured graph-based approach, we've created a customer support agent that can efficiently handle a wide range of queries. This system can be further extended and customized to meet specific business needs, potentially integrating with existing customer support tools and databases for even more sophisticated interactions.
+
+## Essay Grading System
+
+Automated essay grading systems can significantly streamline the assessment process in educational settings, providing consistent and objective evaluations. This implementation aims to demonstrate how large language models and graph-based workflows can be combined to create a sophisticated grading system.
+
+### Key Components
+
+1. State Graph: Defines the workflow of the grading process.
+
+2. LLM Model: Provides the underlying language understanding and analysis.
+3. Grading Functions: Functions for evaluation criteria.
+4. Conditional Logic: Determines the flow of the grading process based on interim scores.
+
+### Method Details
+
+The system follows a step-by-step approach to grade essays:
+
+1. Content Relevance: Assesses how well the essay addresses the given topic.
+
+2. Grammar Check: Evaluates the essay's language usage and grammatical correctness.
+3. Structure Analysis: Examines the organization and flow of ideas in the essay.
+4. Depth of Analysis: Gauges the level of critical thinking and insights presented.
+
+### Requirements
+
+- python 3.10+
+- python-dotenv
+- langchain
+- langchain_groq
+- langGraph
+
+### Graph Structure
+
+![graph structure](./essay_grading_system_graph.png)
+
+### Conclusion
+
+By leveraging the power of large language models and a graph-based workflow, the system offers a nuanced evaluation of essays that considers multiple aspects of writing quality. This system could be further refined and adapted for various educational contexts, potentially improving the efficiency and consistency of essay assessments.
