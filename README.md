@@ -56,7 +56,7 @@ Automated essay grading systems can significantly streamline the assessment proc
 1. State Graph: Defines the workflow of the grading process.
 
 2. LLM Model: Provides the underlying language understanding and analysis.
-3. Grading Functions: Functions for evaluation criteria.
+3. Grading Functions: Functions for evaluation criterias.
 4. Conditional Logic: Determines the flow of the grading process based on interim scores.
 
 ### Method Details
@@ -84,3 +84,17 @@ The system follows a step-by-step approach to grade essays:
 ### Conclusion
 
 By leveraging the power of large language models and a graph-based workflow, the system offers a nuanced evaluation of essays that considers multiple aspects of writing quality. This system could be further refined and adapted for various educational contexts, potentially improving the efficiency and consistency of essay assessments.
+
+## Digital Persons Data Protection Act, 2023 compliance bot
+
+The **Digital Personal Data Protection (DPDP) Act, 2023** introduces a comprehensive framework for safeguarding personal data and ensuring compliance with data privacy regulations. However, understanding and implementing these regulations can be challenging for small and medium-sized enterprises (SMEs) and businesses with limited resources. 
+
+This project aims to address these challenges by creating a **RAG-based AI agent** that simplifies the process of finding accurate and concise answers to frequently asked questions about the DPDP Act. By leveraging advanced retrieval and summarization techniques, the bot ensures that businesses can quickly access relevant information, enabling them to:
+
+- **Save Time:** Eliminate the need to manually sift through lengthy legal documents.
+
+- **Enhance Compliance:** Provide clear and actionable insights to help businesses meet regulatory requirements.
+- **Reduce Complexity:** Simplify the interpretation of legal jargon and complex provisions.
+- **Improve Accessibility:** Make critical information about the DPDP Act readily available to non-experts.
+
+This solution empowers businesses to focus on their core operations while ensuring they remain compliant with data protection laws.
