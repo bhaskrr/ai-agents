@@ -97,4 +97,61 @@ This project aims to address these challenges by creating a **RAG-based AI agent
 - **Reduce Complexity:** Simplify the interpretation of legal jargon and complex provisions.
 - **Improve Accessibility:** Make critical information about the DPDP Act readily available to non-experts.
 
-This solution empowers businesses to focus on their core operations while ensuring they remain compliant with data protection laws.
+This solution empowers businesses to focus on their core operations while ensuring they comply with data protection laws.
+
+## Multi-Platform Content Creator Agent
+
+Content creation for multiple platforms is a complex, time-consuming task that requires understanding platform-specific requirements, and audience preferences, and maintaining consistent messaging. Content Intelligence automates this process by:
+
+- Analyzing and summarizing input content.
+
+- Researching to enhance content quality.
+- Generating platform-specific content while maintaining brand voice.
+- Managing complex workflows through a structured graph approach.
+
+## Key Components
+
+1. State Management - The agent uses TypedDict and Pydantic models to maintain strict type safety and manage various states throughout the content generation process.
+
+2. Agent Nodes - The system is composed of several specialized nodes:
+   - Summary Node:
+     - Processes input text to create concise summaries.
+     - Uses an LLM for high-quality content understanding.
+   - Research Node:
+     - Conducts platform-specific research.
+     - Generates relevant questions based on content context.
+     - Analyzes successful content patterns and trends.
+   - Platform-Specific Nodes
+
+## Implementation Benefits
+
+1. Modularity
+    - Easy to add new platforms or modify existing ones
+    - Independent optimization of each component
+    - Simple maintenance and updates
+
+2. Quality Control
+    - Type safety throughout the pipeline
+    - Consistent brand voice across platforms
+    - Research-backed content generation
+
+3. Scalability
+    - Parallel processing of platform-specific content
+    - Efficient handling of multiple content pieces
+    - Easy integration with existing systems
+
+## Requirements
+
+- python 3.10+
+- langchain
+- langchain-groq
+- langgraph
+- python-dotenv
+
+## Graph Structure
+
+![graph structure](./multi_platform_content_creator_graph.png)
+
+## Conclusion
+
+Content Intelligence demonstrates LangGraph's power in creating sophisticated content generation workflows. By combining state management, research capabilities, and platform-specific optimization, we've created a system that can efficiently handle complex content generation tasks while maintaining quality and consistency.
